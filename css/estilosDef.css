@@ -16,15 +16,20 @@ body{
 }
 .info-artist{
     background-image: url(../Imagenes/fondo2.jpg);
-    height: 800px;
-}
-.info-artist .display-1{
+    background-size: cover;
+    min-height: 700px;
     padding-top: 100px;
 }
-.info-artist .display-4{
-    padding: 30px;
+.div-container-info h1{
+    font-size: 15vw;
 }
-.lineup-artist{
-    background-image: url("../Imagenes/fondo1.png");
-    height: 900px;
+.div-container-info p{
+    margin-top: 20px;
+    font-size: 2vw;
+}
+.button-size{
+    margin-top: 50px;
+    width: 250px;
+    min-height: 10vh;
+    font-size: 25px;
 }
