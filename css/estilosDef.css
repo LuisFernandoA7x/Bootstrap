@@ -1,16 +1,30 @@
+body{
+    font-family: 'Sansita Swashed', cursive;
+}
 .img-logo{
     width: auto;
     height: 50px;
     filter: invert(100%);
     margin-left: 10px;
 }
-.header-prop{
-    background-image: url("../Imagenes/fondo2.jpg");
-}
 .nav-propio{
-    background-color: none;
+    background-color: black;
 }
 .nav-propio ul{
     font-family: 'Lobster', cursive;
     font-size: 20px;
+}
+.info-artist{
+    background-image: url(../Imagenes/fondo2.jpg);
+    height: 800px;
+}
+.info-artist .display-1{
+    padding-top: 100px;
+}
+.info-artist .display-4{
+    padding: 30px;
+}
+.lineup-artist{
+    background-image: url("../Imagenes/fondo1.png");
+    height: 900px;
 }

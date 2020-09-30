@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilosDef.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet"> 
     <title>Estudio Uno - Plantilla</title>
   </head>
   <body>
     <!-- Bloque de navegación, logo y menus -->
-    <header class="header-prop">
-      <nav class="navbar navbar-expand-lg navbar-dark nav-propio">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark nav-propio fixed-top">
         <a class="navbar-brand" href="#"> <img src="imagenes/logo-musica.png" alt="" class="img-logo"></a>
         <!-- Para cuando sea dispositivo movil -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,9 +58,13 @@
         </div>
       </nav>
     </header>
-    
-
-
+    <section class="info-artist">
+      <div class="position-relative text-center text-light">
+        <p class="display-1 text-black-50">Name Artist</p>
+        <p class="display-4">Lorem ipsum dolor sit amet consectetur.</p>
+        <button type="button" class="btn btn-outline-light btn-lg">More Info</button>
+    </div>
+    </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
