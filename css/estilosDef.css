@@ -1,0 +1,16 @@
+.img-logo{
+    width: auto;
+    height: 50px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+.header-prop{
+    background-image: url("../Imagenes/fondo2.jpg");
+}
+.nav-propio{
+    background-color: none;
+}
+.nav-propio ul{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
