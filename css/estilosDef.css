@@ -15,10 +15,11 @@ body{
     font-size: 20px;
 }
 .info-artist{
-    background-image: url(../Imagenes/fondo2.jpg);
+ background-image: url(../Imagenes/fondo2.jpg);
     background-size: cover;
     min-height: 700px;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 150px;
 }
 .div-container-info h1{
     font-size: 15vw;
@@ -32,4 +33,20 @@ body{
     width: 250px;
     min-height: 10vh;
     font-size: 25px;
+}
+
+.lineUp-artist{
+    background-image: url("../Imagenes/fondo\ abajo.png");
+    background-size: cover;
+    top: -150px;
+    min-height: 655px;
+}
+.text-lineup{
+    min-height: 100vh;
+}
+.text-lineup h1{
+    color: #f60038;
+    font-size: 10vh;
+    margin-top: 25vh;
+    margin-bottom: 5vh;
 }
