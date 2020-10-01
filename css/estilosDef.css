@@ -34,19 +34,41 @@ body{
     min-height: 10vh;
     font-size: 25px;
 }
-
-.lineUp-artist{
+.section-lineUp{
     background-image: url("../Imagenes/fondo\ abajo.png");
+    min-height: 140vh;
     background-size: cover;
-    top: -150px;
-    min-height: 655px;
+    top: -180px;
+    margin-bottom: -215px;
 }
-.text-lineup{
-    min-height: 100vh;
+.section-lineUp .text-lineup{
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
-.text-lineup h1{
-    color: #f60038;
-    font-size: 10vh;
-    margin-top: 25vh;
-    margin-bottom: 5vh;
+h1{
+    color: #f60048;
+    font-size: 80px;
+}
+.section-lineUp .text-lineup p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.carousel-inner img {
+    max-height: 460px;
+}
+.carousel-inner{
+    height: 450px;
+}
+
+/*Popular artist*/
+.popular-artist{
+    padding-top: 50px;
+    background-image: url("../Imagenes/fondo1.png");
+    background-size: cover;
+    min-height: 130vh;
+    min-width: 80%;
+}
+.card-popular{
+    margin-top: 150px;
+    padding-left: 23%;
 }
