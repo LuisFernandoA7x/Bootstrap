@@ -1,11 +1,11 @@
 # Bootstrap
 # Temas a poner de Bootstrap
-Buttons
-Cards
-Carousel
-Collapse
+Buttons (Listo)
+Cards (Listo)
+Carousel (Listo)
+Collapse (Listo)
 Forms
-Navbar
+Navbar (Listo)
 Popovers
 Tooltips
 Breadcrumb
