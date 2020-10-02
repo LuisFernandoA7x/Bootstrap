@@ -67,10 +67,12 @@ h2{
     background-repeat: no-repeat;
     padding: 10vh 5vw 5vh 5vw;
 }
-.more-popular .text-cont h1{
-    /* color: #f60038;
-    font-size: 4rem; */
-}
 .card-album-popular{
     margin-top: 5rem;
+}
+
+.img-rotate{
+    width: 200px;
+    height: 200px;
+    transform: rotate3D(1,-.5,1,45deg);
 }
