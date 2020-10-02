@@ -1,5 +1,5 @@
 body{
-    font-family: 'Sansita Swashed', cursive;
+    /* font-family: 'Sansita Swashed', cursive; */
 }
 .img-logo{
     width: auto;
@@ -14,61 +14,62 @@ body{
     font-family: 'Lobster', cursive;
     font-size: 20px;
 }
-.info-artist{
- background-image: url(../Imagenes/fondo2.jpg);
+.info-principal{
+    background-image: url("../Imagenes/fondo2.jpg");
     background-size: cover;
-    min-height: 700px;
-    padding-top: 50px;
-    padding-bottom: 150px;
+    padding: 10vw;
 }
-.div-container-info h1{
-    font-size: 15vw;
+.cont-infoP h1{
+    color: black;
+    font-size: 5rem;
+    margin-bottom: 2rem;
 }
-.div-container-info p{
-    margin-top: 20px;
-    font-size: 2vw;
+.cont-infoP p{
+    font-size: 2rem;
 }
-.button-size{
-    margin-top: 50px;
-    width: 250px;
-    min-height: 10vh;
-    font-size: 25px;
-}
-.section-lineUp{
-    background-image: url("../Imagenes/fondo\ abajo.png");
-    min-height: 140vh;
-    background-size: cover;
-    top: -180px;
-    margin-bottom: -215px;
-}
-.section-lineUp .text-lineup{
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-h1{
-    color: #f60048;
-    font-size: 80px;
-}
-.section-lineUp .text-lineup p{
-    margin-top: 30px;
-    font-size: 20px;
-}
-.carousel-inner img {
-    max-height: 460px;
-}
-.carousel-inner{
-    height: 450px;
+.cont-infoP button{
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
-/*Popular artist*/
-.popular-artist{
-    padding-top: 50px;
+.lineUp{
+    background-color: #111111;
+    padding: 10vw 10vw 5vw 10vw;
+}
+.lineUp .text-cont h1{
+    color: #f60038;
+    font-size: 4rem;
+}
+.line-red{
+    background-color: #f60038;
+    width: 15rem;
+    height: 2px;
+    margin-top: 1rem;
+}
+.lineUp .text-cont p{
+    color: gray;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.carousel-inner img {
+    max-height: 350px;
+}
+.carousel-inner{
+    height: 350px;
+}
+.more-popular{
     background-image: url("../Imagenes/fondo1.png");
     background-size: cover;
-    min-height: 130vh;
-    min-width: 80%;
+    background-repeat: no-repeat;
+    padding: 10vh 5vw 10vh 5vw;
 }
-.card-popular{
-    margin-top: 150px;
-    padding-left: 23%;
+.more-popular .text-cont h1{
+    color: #f60038;
+    font-size: 4rem;
+}
+.card-album-popular h1{
+    color: #f60038;
+}
+.card-album-popular{
+    margin-top: 5rem;
 }
