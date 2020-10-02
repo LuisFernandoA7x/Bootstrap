@@ -90,32 +90,24 @@ h2{
     opacity: 1;
     transition: all .5s;
 }
-.enlacesPie{
-    width: 150px;
-    margin-left: 965px;
-    margin-top: -120px;
+.img-logo2{
+    filter: invert(100%);
 }
 .enlacesPie p{
-    margin: 3px;
-    font-size: .8em;
-    text-align: right;
+    margin: 0rem;
+    font-size: .9em;
 }
 .enlacesPie a{
     color: #f60038;
-    padding: 1px 1px 1px 1px;
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 .enlacesPie a:hover{
     color: white;
     transition: all 1s;
 }
-.redesSociales{
-    width: 270px;
-    margin-left: 850px;
-}
 .redesSociales i{
-    margin-left: 7px;
-    margin-top: 7px;
+    padding-top: 4rem;
+    padding-right: 1rem;
 }
 .redesSociales i:hover{
     color: white;
