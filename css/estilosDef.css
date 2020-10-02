@@ -71,8 +71,14 @@ h2{
     margin-top: 5rem;
 }
 
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d*/
 .img-rotate{
     width: 200px;
     height: 200px;
+    transform: scale(1);
     transform: rotate3D(1,-.5,1,45deg);
+    transition: all 1s;
+}
+.img-rotate:hover{
+    transform: scale(1.2);
 }
