@@ -113,6 +113,8 @@ h2{
     color: white;
     transition: all 1s;
 }
+.spotlight p{
+}
 
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d*/
 .img-rotate{
