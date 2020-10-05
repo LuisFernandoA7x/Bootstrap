@@ -4,9 +4,10 @@ Buttons (Listo)
 Cards (Listo)
 Carousel (Listo)
 Collapse (Listo)
-Forms
+Forms (Listo)
 Navbar (Listo)
 Popovers (Listo)
 Tooltips (Listo)
 Breadcrumb
 Progress
+Dropdowns (Listo)

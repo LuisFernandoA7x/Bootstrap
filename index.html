@@ -284,13 +284,27 @@
           <div class="col">
             <img src="Imagenes/vid-1.jpg">
           </div>
-          <div class="col subscribeDiv">
-            <h2 class="text-left font-weight-bolder">SUSBSCRIBE</h2>
-            <p class="text-left line-red"></p>
-            <p> There are many variations of passages of <br> Lorem Ipsum available but the majority. </p>
-            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Subscribe to receive the latest news">
-              SEND ME
-            </button>
+          <div class="col">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+          </div>
+          <div class="form-group">
+            <label for="exampleDropdownFormPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Sign in</button>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">New around here? Sign up</a>
+          <a class="dropdown-item" href="#">Forgot password?</a>
           </div>
         </div>
   </section>
@@ -345,6 +359,7 @@
     
   </section>
   <!-- Fin sección pie de página -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -353,10 +368,10 @@
     <script> $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
-  </script>
-  <script> $(function () {
-    $('[data-toggle="popover"]').popover()
-  })
-  </script>
+    </script>
+    <script> $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    </script>
   </body>
 </html>
