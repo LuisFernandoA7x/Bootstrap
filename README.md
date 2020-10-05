@@ -6,7 +6,7 @@ Carousel (Listo)
 Collapse (Listo)
 Forms
 Navbar (Listo)
-Popovers
-Tooltips
+Popovers (Listo)
+Tooltips (Listo)
 Breadcrumb
 Progress

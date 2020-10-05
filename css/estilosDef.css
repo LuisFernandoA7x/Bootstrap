@@ -114,8 +114,25 @@ h2{
     transition: all 1s;
 }
 .spotlight p{
+    color: black;
 }
-
+.spotlight img{
+    height: 20rem;
+    width: 28rem;
+    opacity: .7;
+}
+.spotlight img:hover{
+    opacity: 1;
+    transition: all 1s;
+}
+.subscribeDiv{
+    background-image: url("../Imagenes/play_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10vh 5vw 5vh 5vw;
+    width: 10rem;
+    height: 10rem;
+}
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d*/
 .img-rotate{
     width: 200px;
