@@ -317,41 +317,53 @@
     <!-- Fin previous shows -->
 <hr>
   <!-- Sección Spotlight -->
-  <h2 class="text-left mt-5 ml-5 font-weight-bolder">Spotlight</h2>
-  <p class="text-left ml-5 line-red"></p>
   <section class="container-fluid spotlight">
+    <div class="container text-left">
+      <hr>
+      <h2 class="font-weight-bolder text-uppercase">Spotlight</h2>
+      <p class="line-red"></p>
+    </div>
+
     <div class="container">
       <div class="row">
-        <div class="col text-left">
-          <p> There are many variations of passages of <br> Lorem Ipsum available but the majority. </p>
+        <div class="col-sm-12 col-lg-4">
+          <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, ipsum.</p>
         </div>
       </div>
-      <div class="container">
+
+      <div class="container-fluid">
         <div class="row">
-          <div class="col">
-            <img src="Imagenes/vid-1.jpg">
+          <div class="col-sm-12 col-md-6 mb-5">
+            <img src="Imagenes/vid-1.jpg" class="img-fluid">
           </div>
-          <div class="col">
-            <div class="form-group">
-              <label for="exampleDropdownFormEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleDropdownFormPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-          </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="dropdownCheck">
-                <label class="form-check-label" for="dropdownCheck">
-                  Remember me
-                </label>
+
+          <div class="col-sm-12 col-md-6">
+            <div class="container  text-center">
+              <h2 class="font-weight-bolder text-uppercase">Subscribe</h2>
+              <p class="container-fluid line-red"></p>
             </div>
-          </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">New around here? Sign up</a>
-          <a class="dropdown-item" href="#">Forgot password?</a>
+              <div class="form-group">
+                <label for="exampleDropdownFormEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleDropdownFormPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Remember me
+                    </label>
+                </div>
+              </div>
+              <div class="container-fluid text-center">
+                <button type="submit" class="btn btn-outline-dark btn-lg pl-5 pr-5">Sign in</button>
+            <div class="dropdown-divider"></div>
+              </div>
           </div>
         </div>
   </section>
@@ -359,11 +371,16 @@
 
   <!-- Sección pie de página -->
   <footer class="container-fluid piePagina">
-    <div class="container">
-      <h2 class="text-center mt-5 bg-h1 font-weight-bolder text-white">FROM THE FEED</h2>
+    <div class="container-fluid row">
+      <div class="col-sm-block col-sm-12 d-md-none mb-5"></div>
+      <div class="col-sm-block col-sm-12 d-md-none mb-5"></div>
+      <div class="col mt-5 text-center">
+        <h2 class="mt-5 font-weight-bolder text-white">FROM THE FEED</h2>
       <p class="container-fluid line-red"></p>
+      </div>
     </div>
-    <div class="container-fluid text-center">
+
+    <div class="container-fluid text-center img-listado mt-4">
       <a href="#"><img src="Imagenes/Cover1.jpg"></a>
       <a href="#"><img src="Imagenes/Cover2.jpg"></a>
       <a href="#"><img src="Imagenes/Cover3.jpg"></a>
@@ -374,32 +391,30 @@
       <a href="#"><img src="Imagenes/Cover8.jpg"></a>
     </div>
 
-    <div class="container mt-5">
+    <div class="container-fluid mt-5">
       <div class="row">
-        <div class="col img-logo2">
-          <img src="Imagenes/logo-musica.png">
+        <div class="col-sm-6 text-left text-white">
+          <img src="Imagenes/logo-musica.png" class="img-logo mb-4 text-sm-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rem asperiores officiis dolores laborum ratione necessitatibus suscipit dolorum nulla impedit? </p>
         </div>
-        <div class="col enlacesPie text-right pt-5">
+
+        <div class="col-sm-6 enlacesPie text-uppercase text-rigth text-md-right">
           <p class="card-text"><a href="#"> R U L E S</a></p>
           <p class="card-text"><a href="#"> T E R M S OF U S E </a></p>
           <p class="card-text"><a href="#"> T I C K E T S </a></p>
           <p class="card-text"><a href="#"> P O L I C Y </a></p>
         </div>
-        <div class="w-100"></div>
-        <div class="col parrafoPie text-md-left">
-          <p>There are many variations of passages of Lorem Ipsum available but the majority. We are proud there are many variations of passages of Lorem Ipsum available but the majority of the users does use this. </p>
-        </div>
-        <div class="col redesSociales text-right">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-youtube"></i>
-          <i class="fas fa-cloud"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-pinterest"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-vine"></i>
-          <i class="fab fa-apple"></i>
-          <i class="fab fa-vimeo-v"></i>
+        <div class="col redesSociales text-rigth text-md-right mt-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fas fa-cloud"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-pinterest"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-vine"></i></a>
+          <a href="#"><i class="fab fa-apple"></i></a>
+          <a href="#"><i class="fab fa-vimeo-v"></i></a>
         </div>
       </div>
     </div>

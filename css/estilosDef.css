@@ -72,59 +72,45 @@ h2{
 .card-album-popular{
     margin-top: 5rem;
 }
-.piePagina{
-    background-image: url("../Imagenes/fondoAbajo.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 10vh 5vw 5vh 5vw;
-    padding-bottom: 150px;
-}
-.piePagina img{
-    width: 120px;
-    height: 120px;
-    margin: 30px 0px 0px 0px;
-    padding: 0px;
-    opacity: .5;
-}
-.piePagina img:hover{
-    opacity: 1;
-    transition: all .5s;
-}
-.img-logo2{
-    filter: invert(100%);
-}
-.enlacesPie p{
-    margin: 0rem;
-    font-size: .9em;
-}
-.enlacesPie a{
-    color: #f60038;
-    text-decoration: underline;
-}
-.enlacesPie a:hover{
-    color: white;
-    transition: all 1s;
-}
-.redesSociales i{
-    padding-top: 4rem;
-    padding-right: 1rem;
-}
-.redesSociales i:hover{
-    color: white;
-    transition: all 1s;
-}
-.spotlight p{
-    color: black;
-}
-.spotlight img{
-    height: 20rem;
-    width: 28rem;
-    opacity: .7;
-}
-.spotlight img:hover{
-    opacity: 1;
-    transition: all 1s;
-}
+        .piePagina{
+            background-image: url("../Imagenes/fondoAbajo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 10vh 5vw 5vh 5vw;
+        }
+        .piePagina .img-listado img{
+            width: 120px;
+            height: 120px;
+            opacity: .5;
+            transition: all .5s;
+        }
+        .piePagina .img-listado img:hover{
+            opacity: 1;
+        }
+        .img-logo2{
+            filter: invert(100%);
+            height: 2vw;
+        }
+        .enlacesPie p{
+            font-size: .9em;
+        }
+        .enlacesPie a{
+            color: #f60038;
+            text-decoration: underline;
+        }
+        .enlacesPie a:hover{
+            color: white;
+            transition: all 1s;
+        }
+        .redesSociales i{
+            color: white;
+            padding-right: 1rem;
+            transition: all .5s;
+        }
+        .redesSociales i:hover{
+            color: #f60038;
+            
+        }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate3d*/
 .img-rotate{
     width: 200px;
@@ -173,6 +159,7 @@ h2{
 }
 .col-image:hover i{
     background-color: #f60038;
+    transform: scale(1.5);
     top: 15vh;
     opacity: 1;
 }
@@ -189,6 +176,7 @@ h2{
 }
 .col-image:hover .col-image3 i{
     background-color: #f60038;
+    transform: scale(1.8);
     top: 25vh;
     opacity: 1;
 }
